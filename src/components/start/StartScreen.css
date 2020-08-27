@@ -1,0 +1,24 @@
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 950px;
+}
+
+.start-screen .title {
+    background: #ffffff45;
+    padding: 2em;
+    border-radius: 15px;
+    color: #4a22db;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.start-screen .difficulty {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
